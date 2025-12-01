@@ -5,7 +5,7 @@ public class Bullet : MonoBehaviour
 {
     private void Start()
     {
-        Destroy(gameObject, 3f);
+        Destroy(gameObject, 5f);
     }
 
     private void OnTriggerEnter(Collider other)
